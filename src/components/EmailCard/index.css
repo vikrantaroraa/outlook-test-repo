@@ -1,0 +1,69 @@
+.emailCard {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #f6f6f6;
+  /* overflow: hidden; */
+}
+
+.userIconContainer {
+  display: flex;
+  justify-content: center;
+  flex: 0.1;
+  padding: 8px 10px;
+}
+
+.userIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #e54065;
+}
+
+.userIcon img {
+  height: 100%;
+  width: 100%;
+}
+
+.emailData {
+  flex: 1;
+  padding: 8px 10px;
+  /* background-color: lightgreen; */
+}
+
+.from {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.fromName {
+  display: flex;
+  gap: 6px;
+}
+
+.subject {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.mailSummary {
+  margin-bottom: 10px;
+}
+
+.dateAndTime {
+  display: flex;
+  gap: 8px;
+}
+
+.emailcard:hover {
+  cursor: pointer;
+  background-color: red;
+}

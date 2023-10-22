@@ -1,0 +1,81 @@
+.emailTemplate {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #f9f9f9;
+  /* overflow: hidden; */
+}
+
+.userIconContainer {
+  display: flex;
+  justify-content: center;
+  flex: 0.05;
+  padding: 8px 10px;
+}
+
+.userIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #e54065;
+}
+
+.userIcon img {
+  height: 100%;
+  width: 100%;
+}
+
+.subJectDateAndButton {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.subjectAndDate {
+  flex: 1;
+}
+
+.favouriteButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.2;
+}
+
+.favouriteButton button {
+  background-color: #e54065;
+  color: #fff;
+  border-radius: 25px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.emailData {
+  flex: 1;
+  padding: 8px 10px;
+  /* background-color: lightgreen; */
+}
+
+.subject {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #636363;
+  /* background-color: red; */
+}
+
+.mailSummary {
+  margin-bottom: 10px;
+}
+
+.dateAndTime {
+  display: flex;
+  gap: 8px;
+}
